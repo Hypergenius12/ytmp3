@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ytmp3
+    env: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 3000

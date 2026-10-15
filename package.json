@@ -1,0 +1,28 @@
+{
+  "name": "ytmp3",
+  "version": "1.0.0",
+  "description": "Fast YouTube to MP3 converter web service with embedded thumbnail cover art and metadata",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "yt-dlp",
+    "mp3",
+    "audio",
+    "converter",
+    "express"
+  ],
+  "author": "Hypergenius12",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
